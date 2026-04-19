@@ -1,0 +1,17 @@
+# Обновить пакеты
+sudo apt update && sudo apt upgrade -y
+
+# Установить Node.js (через nvm — рекомендуется)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+source ~/.bashrc
+nvm install 20
+nvm use 20
+
+# Установить PM2 для запуска в фоне
+npm install -g pm2
+
+# Установить Git (если нет)
+sudo apt install git -y
+----
+все прошло ок
+----

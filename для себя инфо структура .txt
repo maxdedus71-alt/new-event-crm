@@ -1,0 +1,43 @@
+event-crm/
+├─ package.json
+├─ .env
+├─ server.js
+├─ uploads/
+├─ config/
+│  └─ database.js
+├─ models/
+│  ├─ index.js
+│  ├─ order.js
+│  ├─ orderContractor.js
+│  ├─ client.js
+│  ├─ clientContact.js
+│  ├─ contractor.js
+│  ├─ contractorContact.js
+│  └─ orderDocument.js
+├─ routes/
+│  ├─ orders.routes.js
+│  ├─ clients.routes.js
+│  ├─ contractors.routes.js
+│  ├─ export.routes.js
+│  └─ upload.routes.js
+├─ controllers/
+│  ├─ orders.controller.js
+│  ├─ clients.controller.js
+│  ├─ contractors.controller.js
+│  ├─ export.controller.js
+│  └─ upload.controller.js
+├─ services/
+│  ├─ order.service.js
+│  └─ export.service.js
+├─ public/
+│  ├─ index.html
+│  ├─ css/
+│  │  └─ styles.css
+│  └─ js/
+│     ├─ api.js
+│     ├─ app.js
+│     ├─ orders.js
+│     ├─ clients.js
+│     ├─ contractors.js
+│     └─ archive.js
+└─ README.md
